@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\nvim]
+@="Edit with Neovim"
+"Icon"="C:\\Users\\User\\Desktop\\open-nvim-with-wezterm\\neovim-original.ico"
+
+[HKEY_CLASSES_ROOT\*\shell\nvim\command]
+@="\"C:\\Users\\User\\Desktop\\open-nvim-with-wezterm\\open-nvim-with-wezterm.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\nvim]
+@="Open Neovim Here"
+"Icon"="C:\\Users\\User\\Desktop\\open-nvim-with-wezterm\\neovim-original.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\nvim\command]
+@="\"C:\\Users\\User\\Desktop\\open-nvim-with-wezterm\\open-nvim-with-wezterm.exe\" \"%1\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\nvim]
+@="&Neovim here"
+"Icon"="C:\\Users\\User\\Desktop\\open-nvim-with-wezterm\\neovim-original.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\nvim\command]
+@="\"C:\\Users\\User\\Desktop\\open-nvim-with-wezterm\\open-nvim-with-wezterm.exe\" \"%v\""
